@@ -1,0 +1,286 @@
+/*
+Theme Name: monTheme
+Author: Sébastien
+Author URI: 
+Description: Mon premier thème WordPress !
+*/
+
+
+
+/*bleu claire #445A8F 
+  bleu foncé #3F506E 
+  orange #F48D02*/
+
+
+body{
+	background-color: #445A8F;
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	background-color: #3F506E;
+	padding: 1%;
+}
+
+li{
+	list-style-type: none;
+	margin-right: 2%;
+}
+
+a{
+	color: white;
+	font-size: 150%;
+}
+
+
+h1{
+	font-size: 500%;
+	color: #F48D02;
+	text-align: center;
+}
+
+h2{
+	margin-bottom: 3%;
+	margin-top: 3%;
+	color: #F48D02;
+}
+
+iframe{
+
+	width: 90%;
+	margin-top: 3%;
+}
+
+ul{
+	display: flex;
+	padding-top: 0.5%;
+	background-color: #3F506E;
+	align-items: center;
+}
+
+/******************* PAGE ACCUEIL **************************/
+#texte_slider{
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 1%;
+	margin-right: 0px;
+	color: black;
+	width: 40%;
+	margin-left: 30%;
+}
+
+#navMenu a{
+	color: white;
+}
+
+.carousel-item{
+	height: 450px;
+}
+
+.carousel-item img{
+	height: 450px;
+}
+
+#borderBottomSlider{
+	border: 7px solid #3F506E;
+}
+
+#ligne4vignettes{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.blockVignette{
+	display: flex;
+	flex-direction: column;
+}
+
+.vignetteAcceuil{
+	height: 184px;
+	width: 206px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid #3F506E;
+}
+
+#vignette1{
+	background-image: url(images/blues_vignette_accueil.jpg);
+}
+
+#vignette2{
+	background-image: url(images/disco_vignette_accueil.jpg);
+}
+
+#vignette3{
+	background-image: url(images/rock_vignette_accueil.jpg);
+}
+
+#vignette4{
+	background-image: url(images/jazz_vignette_accueil.png);
+}
+
+.txtVignette{
+	background-color: white;
+	text-align: center;
+	margin-bottom: 15%;
+}
+/**** FORMULAIRE ****/
+
+#pMail, #label_p_nom, #pArea{
+	color: white;
+}
+
+#blocFormulaire{
+	display: flex;
+	flex-direction: row;
+	background-color: #3F506E;
+}
+
+#formulaire{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+#map{
+	width: 43%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#blocForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%; }
+  #blocForm label {
+    font-size: 160%;/*160*/
+    margin-right: 4%; }
+  #blocForm p {
+    font-size: 70%;
+    margin-bottom: 3%; }
+  #blocForm input {
+    width: 100%;
+    margin-bottom: 2%;
+    height: 60px;/*60*/
+    border: none;
+    border-left: 2px solid grey;}
+  #blocForm textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #b0e0e6;
+    border: none;
+    border-left: 2px solid grey;}
+  #blocForm i {
+    font-size: 150%;
+    margin-top: 5%; }
+
+.boxInput{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 60px;
+  width: 500px;
+  padding-left: 2%;
+}
+
+#boxMessage{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 150px;
+  width: 500px;
+  padding-left: 2%; 
+}
+
+#boutonVerif{
+  height: 40px;
+  width: 80px;
+  background-color: white;
+  display: flex;
+  border-radius: 5%;
+  justify-content: center;
+  border: 2px solid grey;
+  padding: 1%;
+  margin-left: 42%;
+  margin-bottom: 3%; 
+}
+  
+#boutonVerif:hover{
+  cursor: pointer;
+  border: 3px solid #445A8F; 
+}
+
+/********************* PAGE TEMPLATE ************************/
+.block{
+	margin-bottom: 5%;
+	position: relative;
+	margin-bottom: 10%;
+}
+
+#boite{
+	display: flex;
+	justify-content: space-around;
+}
+
+.ligne{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 3%;
+	width: 70%;
+}
+
+.titreActus, .extraitActus{
+	text-align: center;
+	background-color: white;
+}
+
+.dateActus{
+	position: absolute;
+	top: 0px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+/********************* BREAKPOINT *******************************/
+@media screen and (max-width: 992px){
+	#ligne4vignettes{
+		flex-direction: column;
+		align-items: center;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	#blocFormulaire{
+		flex-direction: column;
+	}
+
+	#formulaire{
+		width: 100%;
+	}
+
+	#map{
+		width: 100%;
+	}
+
+	a{
+		font-size: 100%;
+	}
+
+	.carousel-item{
+		height: 300px;
+	}
+
+	.carousel-item img{
+		height: 300px;
+	}
+
+
+}
+/***************************************************************************/

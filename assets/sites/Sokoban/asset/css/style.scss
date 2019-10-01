@@ -1,0 +1,131 @@
+
+
+*{
+    padding:  0;
+    margin: 0;
+}
+
+td{
+    height: 50px;
+    width: 50px;
+}
+
+body{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tab{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border-spacing: 0;
+}
+
+.mur{
+    background-image: url('../images/m.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.banane{
+    background-image: url('../images/b.png');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.arrive{
+    background: url('../images/a.png');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.persoBas, .dk{
+    background-image: url('../images/dk_bas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.arriveBanane{
+    background: url('../images/b.png') left top,   
+     url('../images/a.png') right bottom; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.arriveDk{
+    background: url('../images/dk_bas.png') left top,   
+     url('../images/a.png') right bottom; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center; 
+}
+/***********************************************************/
+
+/*@font-face 
+{ 
+    font-family: 'jungle';
+    src: url('../fonts/JungleClean.ttf') format('truetype');
+}*/
+
+.db{
+	display: block;
+}
+
+.dn{
+	display: none;
+}
+
+#blockDisplay{
+	width: 100%;
+}
+
+#mainWrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    //font-family: 'jungle';
+ 	
+    h1{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 450%;
+        color: white;
+    }
+
+    h2{
+        font-size: 200%;
+        margin-bottom: 1%;
+        color: white;
+    }
+
+    #choix3level{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+        .imglevel{
+            border: 10px solid black;
+            border-radius: 5%;  
+        }
+
+        .imglevel:hover{
+            border: 10px solid white;
+            border-radius: 5%;  
+        }
+
+    }//#choix3level
+
+ 
+}//mainWrap

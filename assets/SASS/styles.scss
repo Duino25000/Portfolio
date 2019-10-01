@@ -1,0 +1,732 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+  font-family: "Street";
+  src: url("../fonts/Syemox.eot") format("eot"),
+  			url("../fonts/Syemox.ttf") format("ttf"),
+  			url("../fonts/Syemox.otf") format("otf"), 
+  			url("../fonts/Syemox.woff") format("woff"),
+  			url("../fonts/Syemox.svg") format("svg");     
+}
+
+@mixin entete-lignes{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 5%;
+}
+
+@mixin entete-lignes-off{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+@mixin verso-images{
+	width: 500px;
+	height: 284px;
+	transform-style: preserve-3d;
+	transition: all 0.5s linear;//1.0
+}
+
+@mixin verso-images-petit{
+	width: 250px;
+	height: 142px;
+	transform-style: preserve-3d;
+	transition: all 0.5s linear;//1.0
+}
+
+//********** GENERAL POUR TOUTES LES SECTIONS *********
+h2{
+	text-align: center;
+	font-size: 240%;
+	padding-top: 3%;
+	color: orange;
+	font-family: "Street", serif;
+
+	@media screen and (max-width: 768px){
+			font-size: 150%;
+		}
+}
+
+#soutitre{
+	text-align: center;
+	font-size: 180%;
+	padding-top: 3%;
+	color: orange;
+	font-family: "Street", serif;
+}
+
+h3{
+	font-size: 220%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	font-family: "Street", serif;
+}
+
+hr{
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 2%;
+}
+
+.face{
+	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	backface-visibility: hidden;
+}
+
+.face.back{
+  	display: block;
+  	transform: rotateY(180deg);
+  	background-color: orange;
+  	text-align: center;
+  	border-radius: 10%;
+
+  	p{
+  		color: white;
+  		margin-top: 2%;
+  		margin-bottom: 4%;
+
+  		@media screen and (max-width: 576px){
+				font-size: 70%;
+				
+			}
+  	}
+
+  	h4{
+  		font-size: 150%;
+  		margin-bottom: 2%;
+
+  		@media screen and (max-width: 576px){
+				font-size: 100%;
+		}
+  	}
+
+  	.techno{
+  		font-size: 150%;
+
+  		@media screen and (max-width: 576px){
+				font-size: 100%;
+		}
+  	}
+}
+
+.titre{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	hr{
+		width: 25%;
+		margin-top: 4.5%;
+		margin-right: 2%;
+		margin-left: 2%;
+		height: 0px;
+	}
+}
+//******************* HEADER ***********************
+header{
+	align-items: center;
+
+	#fondHeader{
+		position: absolute;
+		width: 100%;
+	}
+
+	nav{
+		position: fixed;
+		width: 100%;
+		background-color: black;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		z-index: 1;
+		border-bottom: 3px solid white;
+
+		ul{
+			display: flex;
+			flex-direction: row;
+			list-style-type: none;
+			justify-content: space-around;
+			font-size: 160%;
+
+			@media screen and (max-width: 768px){
+				font-size: 100%;
+			}
+
+			a{
+				text-decoration: none;
+				color: orange;
+				font-family: "Street", serif;
+			}
+
+			a:hover{
+				color: white;
+			}
+		}
+	}
+
+	#boiteTitre{
+		position: absolute;
+		width: 100%;
+
+		#titreMoi{
+
+
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		
+
+			p{
+				margin-top: 27%;
+				font-size: 160%;
+				background-color: rgba(128,128,128,0.8);
+				padding: 1%;
+				text-align: center;
+				font-family: "Street", serif;
+				color: white;
+
+				@media screen and (max-width: 1200px){
+					font-size: 120%;
+				}
+			}
+
+		span{
+			font-size: 160%;
+		}
+	}
+}
+
+}
+//***************** SECTION PROJET PRO **************************
+#projets{
+	padding-top: 40px;
+	background-color: black;
+
+	h3{
+		color: white;
+		text-align: center;
+		margin-bottom: 3%;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	#ligneHaut{
+		@include entete-lignes;
+		margin-top: 20%;
+
+		@media screen and (max-width: 1200px){
+			@include entete-lignes-off;
+		}
+
+
+
+
+
+
+		#picture{
+		  	@include verso-images;
+		  	background-image: url("../images/webagency500.png");
+		  	background-repeat: no-repeat;
+		  	border-radius: 10%;
+
+		  	@media screen and (max-width: 576px){
+		  		@include verso-images-petit;
+				background-image: url("../images/webagency250.png");
+			}
+		}
+
+		#picture2{
+		  	@include verso-images;
+		}
+
+
+
+
+
+		#box1:hover #picture{
+  			transform: rotateY(180deg);
+		}
+
+		#box2:hover #picture2{
+  			transform: rotateY(180deg);
+		}
+
+	}
+
+	#ligneMilieu{
+		@include entete-lignes;
+		background-color: white;
+		@media screen and (max-width: 1200px){
+			@include entete-lignes-off;
+		}
+
+		h3{
+			color: black;
+		}
+
+		#picture3, #picture4{
+		  	@include verso-images;
+		}
+
+		#box3:hover #picture3{
+  			transform: rotateY(180deg);
+		}
+
+		#box4:hover #picture4{
+  			transform: rotateY(180deg);
+		}
+	}
+
+	#ligneBas{
+		@include entete-lignes;
+		@media screen and (max-width: 1200px){
+			@include entete-lignes-off;
+		}
+
+		#picture5, #picture6{
+		  	@include verso-images;
+		}
+
+		#box5:hover #picture5{
+  			transform: rotateY(180deg);
+		}
+
+		#box6:hover #picture6{
+  			transform: rotateY(180deg);
+		}
+	}
+}//#projets
+//***************** SECTION PROJET PERSO **************************
+#projetPerso{
+	padding-top: 40px;
+
+	h3{
+		text-align: center;
+		margin-bottom: 3%;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	#lignePerso{
+		@include entete-lignes;
+		@media screen and (max-width: 1200px){
+			@include entete-lignes-off;
+		}
+
+		#picture7, #picture8{
+		  	@include verso-images;
+		}
+
+		#box7:hover #picture7{
+  			transform: rotateY(180deg);
+		}
+
+		#box8:hover #picture8{
+  			transform: rotateY(180deg);
+		}
+	}
+}
+
+//*************************** SECTION MOI **************************************
+#moi{
+	background-color: black;
+	padding-bottom: 3%;	
+	padding-top: 40px;
+	
+	#textePresentation{
+		width: 70%;
+		margin-left: 15%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+		background-color: white;
+		padding: 2%;
+		border: 2px solid black;
+
+		p{
+			text-align: center;
+
+			a{
+				color: orange;
+			}
+		}
+	}
+}
+
+//******************* SECTION COMPETANCES *************************************
+#competances{
+	background-color: white;
+	padding-bottom: 3%;
+	padding-top: 40px;
+	
+	#blockCompetances{
+		display: flex;
+		flex-direction: row;
+
+		img{
+			margin-left: 8%;
+		}
+
+		#texteCompetances{
+			background-color: black;
+			margin-bottom: 3%;
+			width: 50%;
+			margin-left: 15%;
+			margin-top: 3%;
+			padding: 1%;
+
+			p{
+				text-align: center;
+				color: white;
+			}
+
+			a{
+				color: orange;
+			}
+
+			h5{
+				font-size: 120%;
+				text-align: center;
+				color: white;
+			}
+		}
+	}
+}
+
+//******************** SECTION CONTACT ********************
+#contact{
+	padding-top: 40px;
+
+	#blockFormulaire{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 3%;
+		margin-bottom: 3%;
+
+		form{
+			width: 40%;
+			padding: 2%;
+			
+			#blocForm{
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+
+				p{
+					margin-bottom: 3%;
+					color: white;
+				}
+
+				.boxInput, #boxMessage{
+					background-color: orange;
+					padding: 2%;
+					width: 450px;
+
+					i{
+						font-size: 190%;
+					}
+
+					input{
+						font-size: 120%;
+						width: 400px;
+						height: 50px;
+					}
+
+					textarea{
+						width: 400px;
+						height: 150px;
+						font-size: 120%;
+
+						i{
+							padding-top: 0px;
+						}
+					}
+				}
+
+				#boutonVerif{
+					border: 4px solid black;
+					padding: 2%;
+					background-color: orange;
+					font-family: "Street", serif;
+				}
+			}
+		}
+	}
+}
+//******************* FOOTER *******************************************
+footer{
+	height: 70px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+	p{
+		color: orange;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 2%;
+		font-family: "Street", serif;
+	}
+
+	p:hover{
+		color: white;
+	}
+
+	a{
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 2%;
+
+		i{
+			color: orange;
+			font-size: 120%;
+		}
+
+		i:hover{
+			color: white;
+		}
+	}
+	
+}
+/********************* PAGE DUINO ********************************/
+
+#Presentation{
+	background-color: black;
+	padding-top: 40px;
+
+	p{
+		color: white;
+		text-align: center;
+		font-size: 120%;
+	}
+
+	.bienvenue{
+		width: 70%;
+		margin-left: 15%;
+		padding: 2%;
+		padding-bottom: 3%;
+	}
+}
+
+#DuinoV1{
+	padding-top: 40px;
+}
+
+#DuinoV2{
+	background-color: black;
+	padding-top: 40px;
+
+	p{
+		color: white;
+	}
+}
+
+#DuinoV3{
+	padding-top: 40px;
+}
+
+#Details{
+	background-color: black;
+	padding-top: 40px;
+
+	p{
+		padding: 2%;
+		color: white;
+		text-align: center;
+	}
+}
+
+#Bonus{
+	padding-top: 40px;
+}
+
+@mixin photo-duino{
+	margin: 5px;
+	margin-top: 25px;
+	
+	width: 300px;
+}
+
+.photoDuino{
+	@include photo-duino;
+	height: 250px;
+	border-radius: 40px;
+}
+
+.photoDuino2 /*pour duinoV3*/{
+	@include photo-duino;
+	height: 170px;
+	border-radius: 40px;
+}
+
+.photoDuino3 /*pour duinoV3*/{
+	@include photo-duino;
+	height: 400px;
+	border-radius: 40px;
+}
+
+.photoDuino4 /*pour duinoV3*/{
+	@include photo-duino;
+	height: 550px;
+	border-radius: 40px;
+}
+
+.photoDuino5 /*pour duinoV3*/{
+	@include photo-duino;
+	height: 217px;	
+}
+
+@mixin txt-duino{
+	margin: 5px;
+	margin-top: 25px;
+	padding: 1%;
+	width: 300px;
+}
+
+.txt1 /*Bleu normal*/{
+	@include txt-duino;
+	height: 170px;
+	background-color: black;
+	border-bottom-left-radius: 40px;
+	border-top-right-radius: 40px;
+	
+	p{
+		color: white;
+	}
+}
+
+.txt2 /*Orange normal*/{
+	@include txt-duino;
+	height: 170px;
+	background-color: orange;
+	border-bottom-right-radius: 40px;
+	border-top-left-radius: 40px;
+}
+
+.txt3 /*Haute orange*/{
+	@include txt-duino;
+	height: 230px;
+	background-color: orange;
+	border-bottom-right-radius: 40px;
+	border-top-left-radius: 40px;
+}
+
+.txt4 /*Tres haute bleu*/{
+	@include txt-duino;
+	height: 400px;
+	background-color: black;
+	border-bottom-right-radius: 40px;
+	border-top-left-radius: 40px;
+	
+	p{
+		color: white;
+	}
+}
+
+.txt5 /*Haute bleu #B0E0E6*/{
+	@include txt-duino;
+	height: 230px;
+	background-color: black;
+	border-bottom-right-radius: 40px;
+	border-top-left-radius: 40px;
+	
+	p{
+		color: white;
+	}
+}
+
+.txt6{
+	@include txt-duino;
+	height: 230px;
+	background-color: white;
+	border-bottom-right-radius: 40px;
+	border-top-left-radius: 40px;
+	
+	p{
+		color: black !important;
+
+	}	
+}
+
+.ligne1Duino{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.ligne1{
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	margin-left: 15%;
+}
+/************************** PAGE CESITE ****************************************/
+#siteTXT1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: black;
+
+	img{
+		height: 175px;
+		width: 300px;
+	}
+
+	p{
+		width: 70%;
+		text-align: center;
+		padding: 2%;
+		color: white;
+	}
+}
+
+#siteTXT2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	img{
+		height: 200px;
+		width: 300px;
+	}
+
+	p{
+		width: 70%;
+		text-align: center;
+		padding: 2%;
+	}
+}
+
+#siteTXT3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: black;
+
+	img{
+		height: 137px;
+		width: 300px;
+	}
+
+	p{
+		width: 70%;
+		text-align: center;
+		padding: 2%;
+		color: white;
+	}
+}
+/**************************************/
+
+

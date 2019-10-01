@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="asset/css/style.css">
+	<title>SOKOBAN</title>
+</head>
+<body>
+
+
+	<div id="mainWrap">
+		<h1>SOKOBAN</h1>
+		<h2>Choisissez un level</h2>
+
+		<div id="choix3level">
+			<img src="asset/images/level1_7x7.png" class="imglevel" alt="Screenshot level 1" height="345" width="345" />
+			<img src="asset/images/level2_10x10.png" class="imglevel" alt="Screenshot level 2" height="345" width="345" />
+			<img src="asset/images/level2_10x10.png" class="imglevel" alt="Screenshot level 3" height="345" width="345" />
+		</div>
+
+		<div id="boutonMenu" onclick="lectureFichier(_level)"><p>JOUER</p></div>
+
+	</div><!--#mainWrap-->
+
+	<div id="plateau">
+		<table id="tab"></table>
+		<h3>Il reste <span id="compteur">0</span> banane(s).</h3>
+		<h3>Nombre de coup: <span id="compteur2">0</span>.</h3>
+	</div>
+
+	<h2 id="victoire"></h2>
+
+	
+
+	<script src="asset/js/level.js"></script>
+    <script src="asset/js/script.js"></script>
+</body>
+</html>

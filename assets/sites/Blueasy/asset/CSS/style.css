@@ -1,0 +1,327 @@
+/*.navbar-light .navbar-toggler{
+	color: white;
+	fond video #515f67
+	bouton video #353f46
+	fond twitter #4bcaff
+	fond footer #353f47
+	
+}*/
+.borderBlack {
+  width: 45px;
+  border-top: 2px solid black; }
+
+.borderWhite {
+  border-top: 2px solid white;
+  width: 45px;
+  margin-bottom: 5%; }
+
+/******************* HEADER ***********************/
+header {
+  background-image: url("../images/hero_background.jpg");
+  background-size: cover;
+  height: 100vh;
+  /*.container-fluid*/ }
+  @media screen and (max-width: 576px) {
+    header {
+      height: 50vh; } }
+  header h1 {
+    font-weight: 100; }
+  header .container-fluid {
+    padding-right: 0;
+    padding-left: 0; }
+    header .container-fluid .container {
+      margin-bottom: 2%;
+      margin-top: 2%; }
+    header .container-fluid .navbar-light {
+      background-color: rgba(62, 73, 80, 0.9); }
+      header .container-fluid .navbar-light .navbar-nav .nav-link {
+        color: white; }
+      header .container-fluid .navbar-light .navbar-nav #a1 {
+        color: #4bcaff; }
+    header .container-fluid #textHero {
+      margin-top: 20%;
+      text-align: center; }
+      @media screen and (max-width: 992px) {
+        header .container-fluid #textHero {
+          margin-top: 5%; } }
+      header .container-fluid #textHero span {
+        display: inline-block;
+        color: white;
+        background-color: rgba(62, 73, 80, 0.9); }
+      header .container-fluid #textHero #spn1 {
+        margin-bottom: 2%; }
+    header .container-fluid #li1 {
+      border: 2px solid #4bcaff;
+      margin-right: 3%;
+      padding-right: 2%;
+      padding-left: 2%; }
+
+/******************** SERVICES *************************/
+#services {
+  background-color: #4bcaff;
+  color: white; }
+  #services h2 {
+    padding-top: 5%;
+    font-weight: 100; }
+  #services .container {
+    padding-bottom: 5%; }
+  @media screen and (max-width: 576px) {
+    #services .container {
+      text-align: center; }
+    #services .borderWhite {
+      display: none; }
+    #services h2 {
+      margin-bottom: 5%; } }
+
+/********************* PORTFOLIO **********************/
+#portfolio h2, #portfolio .borderBlack {
+  margin-left: -32px;
+  font-weight: 100; }
+#portfolio #barmenue {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  #portfolio #barmenue ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: black;
+    list-style-type: none;
+    width: 100%; }
+    #portfolio #barmenue ul li {
+      width: 100%; }
+#portfolio #focusLi2:hover, #portfolio #focusLi3:hover, #portfolio #focusLi4:hover, #portfolio #focusLi5:hover {
+  cursor: pointer; }
+@media screen and (max-width: 576px) {
+  #portfolio #flexL1 {
+    padding-left: 15%; } }
+#portfolio #flexL2 {
+  margin-top: 2%;
+  margin-bottom: 10%; }
+  @media screen and (max-width: 576px) {
+    #portfolio #flexL2 {
+      padding-left: 15%; } }
+@media screen and (max-width: 576px) {
+  #portfolio .borderBlack {
+    display: none; } }
+
+/********************* #VIDEO **********************/
+#video {
+  background-color: #515f67;
+  color: white; }
+  #video h2 {
+    font-weight: 100; }
+    @media screen and (max-width: 576px) {
+      #video h2 {
+        margin-bottom: 5%; } }
+  #video .row {
+    padding-top: 5%;
+    padding-bottom: 8%; }
+    @media screen and (max-width: 576px) {
+      #video .row {
+        display: flex;
+        flex-direction: column; } }
+  #video #textVideo {
+    width: 50%;
+    padding: 1%; }
+    @media screen and (max-width: 576px) {
+      #video #textVideo {
+        width: 100%;
+        text-align: center; } }
+    #video #textVideo .txtVideo {
+      width: 90%; }
+      @media screen and (max-width: 576px) {
+        #video #textVideo .txtVideo {
+          width: 100%; } }
+    #video #textVideo #btn1 {
+      border: 2px solid #353f46;
+      color: #353f46;
+      width: 130px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      padding-top: 1%; }
+      @media screen and (max-width: 576px) {
+        #video #textVideo #btn1 {
+          margin-left: 32%; } }
+    #video #textVideo #btn1:hover {
+      border: 2px solid white;
+      color: white; }
+  #video #videoGauche {
+    width: 50%;
+    padding-top: 2%; }
+    @media screen and (max-width: 576px) {
+      #video #videoGauche {
+        width: 100%; } }
+  @media screen and (max-width: 576px) {
+    #video .borderWhite {
+      display: none; } }
+
+/********************* #TWITTER **********************/
+#twitter {
+  background-color: #4bcaff;
+  color: white;
+  padding: 2%; }
+  @media screen and (max-width: 576px) {
+    #twitter {
+      text-align: center; } }
+  #twitter h2 {
+    font-weight: 100; }
+  #twitter p {
+    font-size: 150%; }
+  @media screen and (max-width: 576px) {
+    #twitter .borderWhite {
+      display: none; } }
+
+/********************* #WHO **********************/
+#who {
+  background-image: url("../images/who_background.jpg");
+  background-size: cover;
+  height: 60vh;
+  color: white; }
+  @media screen and (max-width: 576px) {
+    #who {
+      height: 80vh;
+      text-align: center; } }
+  #who h2 {
+    font-weight: 100; }
+  #who .container {
+    display: flex;
+    flex-direction: row; }
+    @media screen and (max-width: 576px) {
+      #who .container {
+        flex-direction: column; } }
+    #who .container #whoGauche {
+      width: 50%;
+      padding-top: 5%;
+      /*padding: 5%;*/ }
+      @media screen and (max-width: 576px) {
+        #who .container #whoGauche {
+          width: 100%;
+          padding-top: 0; } }
+      #who .container #whoGauche p {
+        width: 98%; }
+    #who .container #whoDroite {
+      width: 50%;
+      padding-top: 12%; }
+      @media screen and (max-width: 576px) {
+        #who .container #whoDroite {
+          width: 100%;
+          padding-top: 0; } }
+      #who .container #whoDroite #logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+        margin-top: 6%; }
+        @media screen and (max-width: 576px) {
+          #who .container #whoDroite #logo {
+            margin-left: 25%; } }
+        #who .container #whoDroite #logo .logoWho {
+          padding-top: 3%;
+          padding-bottom: 3%;
+          padding-right: 5%;
+          padding-left: 5%;
+          border: 2px solid white;
+          font-size: 140%; }
+        #who .container #whoDroite #logo #logo1:hover, #who .container #whoDroite #logo #logo2:hover, #who .container #whoDroite #logo #logo3:hover, #who .container #whoDroite #logo #logo4:hover {
+          color: #4bcaff;
+          border: 2px solid #353f46; }
+  @media screen and (max-width: 576px) {
+    #who .borderWhite {
+      display: none; } }
+
+/********************* #TEST ******************************/
+#test h2 {
+  font-weight: 100; }
+@media screen and (max-width: 576px) {
+  #test {
+    text-align: center; } }
+@media screen and (max-width: 576px) {
+  #test .borderBlack {
+    display: none; } }
+
+/********************* #CONTACT **********************/
+#contact {
+  background-image: url("../images/contact_background.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white; }
+  @media screen and (max-width: 576px) {
+    #contact {
+      height: 110vh; } }
+  #contact h2 {
+    font-weight: 100; }
+  #contact input {
+    background-color: transparent;
+    border: 2px solid white;
+    height: 60px; }
+    @media screen and (max-width: 576px) {
+      #contact input {
+        height: 30px; } }
+  #contact textarea {
+    background-color: transparent;
+    border: 2px solid white;
+    width: 100%; }
+  #contact #contactHaut {
+    display: flex;
+    flex-direction: row;
+    padding-top: 6%; }
+    #contact #contactHaut #contactGauche {
+      width: 40%;
+      display: flex;
+      flex-direction: column; }
+      @media screen and (max-width: 576px) {
+        #contact #contactHaut #contactGauche {
+          width: 100%; } }
+      #contact #contactHaut #contactGauche #label_p_nom, #contact #contactHaut #contactGauche #label_p_mail {
+        height: 10px; }
+    #contact #contactHaut #contactDroit {
+      width: 60%;
+      padding-top: 8%;
+      padding-left: 5%; }
+      @media screen and (max-width: 576px) {
+        #contact #contactHaut #contactDroit {
+          width: 100%;
+          padding: 0;
+          font-size: 90%;
+          text-align: center;
+          position: bottom; } }
+  #contact #contactBas #label_p_contact {
+    height: 10px; }
+  #contact #contactBas #btn2 {
+    background-color: #4bcaff;
+    color: white;
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%; }
+  #contact #contactBas #btn2:hover {
+    background-color: white;
+    color: #4bcaff; }
+  @media screen and (max-width: 576px) {
+    #contact #contactHaut {
+      flex-direction: column; }
+    #contact .borderWhite {
+      display: none; }
+    #contact h2 {
+      text-align: center; } }
+
+/********************* FOOTER *********************/
+footer {
+  background-color: #353f47; }
+  footer #menuFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+  footer p {
+    margin-top: 5%; }
+
+/*# sourceMappingURL=style.css.map */
