@@ -34,25 +34,31 @@
 			<ul>
 				<li><a href="index.php"><i class="fas fa-arrow-circle-left"></i></a></li>
 				<li><a href="#Presentation">Présentation</a></li>
-				<li><a href="#DuinoV1">Première version</a></li>
-				<li><a href="#DuinoV2">Deuxième version</a></li>
-				<li><a href="#DuinoV3">Troisième version</a></li>
-				<li><a href="#Details">Plus de détails</a></li>
+				<li><a href="#DuinoV1">Première<br/>version</a></li>
+				<li><a href="#DuinoV2">Deuxième<br/>version</a></li>
+				<li><a href="#DuinoV3">Troisième<br/>version</a></li>
+				<li><a href="#Details">Plus de<br/>détails</a></li>
 				<li><a href="#Bonus">Bonus</a></li>
 			</ul>
 		</nav>
 	
-		<div id="titreMoi">
-			<img id ="PhotoMoi" src="assets/images/moi.jpg" alt="slider"><p><span>Dubel Sébastien</span><br />Développeur Web junior</p>
+		<img id="fondHeader" src="assets/images/web5.jpg" alt="slider">
+		<div id="boiteTitre">
+			<div id="titreMoi">
+			<p><span>Dubel Sébastien</span><br />Développeur Web junior</p>
+			</div>
 		</div>
-
 		
 	</header>
 
 	<section id="Presentation">
+
+		
 		<div class="titre">
 			<hr><h2>Présentation de Duino</h2><hr>
 		</div>
+
+
 		<div class="bienvenue">
 	    	<p>Duino c'est le nom de mon robot ! Pour schématiser, celui-ci pourrait ce décomposer en deux parties distinctes :<br />La partie "cerveau" géré par la <a href="https://raspbian-france.fr/" target="_blank" title="Visitez Raspbian France. (Ouvre un nouvel onglet)">Raspberry Pi3</a> , véritable mini pc sous Linux avec tout ce que cela comporte ! Et la partie "mécanique" géré par l'<a href="https://store.arduino.cc/" target="_blank" title="Visitez le site du fabricant">Arduino Uno</a> , relié à différents composants comme des moteurs ou des capteurs pour qu'il puisse intéragir avec son environnement. L'ensemble forme un système embarqué complet contrôlable à distance avec des utilitaires comme <a href="https://www.realvnc.com/fr/connect/download/viewer/" target="_blank" title="Visitez realvnc.com. (Ouvre un nouvel onglet)">VNC </a> par exemple qui est installé de base avec le système d'exploitation officiel. Le tout programmé en Arduino (dérivé du C++) pour l'Arduino, Python3 pour la Raspberry et Tkinter pour l'interface du programme.</p>
 		</div>
@@ -135,17 +141,17 @@
 		</div>
 		<h2 id="DuinoExtra"><i>Avant de partir.....Duino sous d'autres coutures....</i></h2>
 
-		<div class="ligne1">
+		<div class="ligne1Duino">
 			<img class="photoDuino3" src="assets/images/DuinoExtra/plastic1.jpg" alt="">						
 			<img class="photoDuino3" src="assets/images/DuinoExtra/plastic3.jpg" alt="">
 		</div>
 
-		<div class="ligne1">					
+		<div class="ligne1Duino">					
 			<img class="photoDuino" src="assets/images/DuinoExtra/plastic2.jpg" alt="">
 			<img class="photoDuino" src="assets/images/DuinoExtra/boite.jpg" alt="">
 		</div>
 
-		<div class="ligne1">
+		<div class="ligne1Duino">
 			<img class="photoDuino4" src="assets/images/DuinoExtra/carton2.jpg" alt="">
 			<img class="photoDuino4" src="assets/images/DuinoExtra/carton1.jpg" alt="">	
 		</div>

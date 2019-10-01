@@ -29,22 +29,25 @@
 <body>
 <!--*********************************** HEADER *****************************************-->
 	<header>
-		
 		<nav>
 			<ul>
 				<li><a href="index.php"><i class="fas fa-home"></i></a></li>
 				<li><a href="#projets">Mes projets pro</a></li>
 				<li><a href="#projetPerso">Mes projets perso</a></li>
-				<li><a href="#competances">Mes compétances</a></li>
+				<li><a href="#competences">Mes compétences</a></li>
 				<li><a href="#moi">Qui suis-je ?</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	<img id="fondHeader" src="assets/images/web5.jpg" alt="slider">
 		<div id="boiteTitre">
+
+
 			<div id="titreMoi">
-			<!--	<img id ="PhotoMoi" src="assets/images/moi.jpg" alt="slider">--><p><span>Dubel Sébastien</span><br />Développeur Web junior</p>
+				<p><span>Dubel Sébastien</span><br />Développeur Web junior</p>
 			</div>
+
+			
 		</div>
 	</header>
 <!--******************************** #PROJETS ***************************************************-->
@@ -54,38 +57,36 @@
 			<hr><h2>MES PROJETS PRO</h2><hr>
 		</div>
 		<h2>Sites que j'ai créés dans le cadre de différentes formations .</h2>
-		<div id="ligneHaut">
 
+		<div id="ligneHaut">
 			<div id="webagency">
 				<h3>WebAgency</h3>
 				<div id="box1">
 					<div id="picture" class="shadow">
-						<div class="front face">
+						<div class="face">
 							<!--<img class="imageProjet" src="assets/images/webagency500.png" alt="image site webagency">-->
 						</div>
 						<div id="b1" class="back face center">
-							<a href="assets/sites/WebAgency/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Webagency</h4><p>Intégration web à partir de simples images.</br> Réalisé uniquement en HTML5/CSS3, sans framework.</br> Site responsive avec Media Queries et Flexbox.</br> Répond au norme W3C. </br>(Seule la barre de navigation du menu est active)</p><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3</p></a>
+							<a href="assets/sites/WebAgency/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Webagency</h4><p>Intégration web à partir de simples images.</br> Réalisé uniquement en HTML5/CSS3, sans framework.</br> Site responsive avec Media Queries et Flexbox.</br> Répond aux normes W3C. </br>(Seule la barre de navigation du menu est active)</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3</p></div></a>
 						</div>
 	  				</div>
 	  			</div>
 	  		</div><!--#webagency-->
-
 
 	  		<div id="blueasy">
 				<h3>Blueasy</h3>
 				<div id="box2">
 					<div id="picture2" class="shadow">
 						<div class="front face">
-							<img class="imageProjet" src="assets/images/blueasy500.png" alt="image site blueasy">
+			
 						</div>
 						<div id="b2" class="back face center">
-							<a href="assets/sites/Blueasy/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Blueasy</h4><p>Intégration web à partir d'un PSD.</br> Réalisé en HTML5/CSS3 et Bootstrap pour la mise en page.</br> Réalisé dans le cadre d'une formation.</p><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Bootstrap, Photoshop</p></a>
+							<a href="assets/sites/Blueasy/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Blueasy</h4><p>Intégration web à partir d'un PSD.</br> Réalisé en HTML5/CSS3 et Bootstrap pour la mise en page.</br> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Bootstrap, Photoshop</p></div></a>
 						</div>
 		  			</div>
 		  		</div>
 	  		</div><!--#blueasy-->
 		</div><!--#ligneHaut-->
-
 
 		<div id="ligneMilieu">
 			<div id="ski">
@@ -93,32 +94,30 @@
 				<div id="box3">
 					<div id="picture3" class="shadow">
 						<div class="front face">
-							<img class="imageProjet" src="assets/images/ski500.png" alt="image site ski">
+							
 						</div>
 						<div id="b3" class="back face center">
 							<a href="assets/sites/Ski/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Ski</h4><p>
-							Intégration web à partir d'un PSD.</br> Réalisé uniquement avec HTML5 et CSS3.</br> Réalisé dans le cadre d'une formation.</p><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Photoshop</p></a>
+							Intégration web à partir d'un PSD.</br> Réalisé uniquement avec HTML5 et CSS3.</br> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Photoshop</p></div></a>
 						</div>
 		  			</div>
 		  		</div>
 	  		</div><!--#ski-->
-
 
 			<div id="projetSportif">
 				<h3>Projet sportif</h3>
 				<div id="box4">
 					<div id="picture4" class="shadow">
 						<div class="front face">
-							<img class="imageProjet" src="assets/images/sportif500.png" alt="image site webagency">
+						
 						</div>
 						<div id="b4" class="back face center">
-							<a href="assets/sites/Projet_Sportif/index.php" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Projet Sportif</h4><p>Déscriptif du site</p><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p></a>
+							<a href="assets/sites/Projet_Sportif/index.php" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Projet Sportif</h4><p>Déscriptif du site</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p></div></a>
 						</div>
 		  			</div>
 		  	</div>	
 	  		</div><!--#projetSportif-->
 		</div><!--#ligneMilieu-->
-
 
 		<div id="ligneBas">
 			<div id="wordpressVinyle">
@@ -126,30 +125,28 @@
 				<div id="box5">
 					<div id="picture5" class="shadow">
 						<div class="front face">
-							<img class="imageProjet" src="assets/images/vinyle500.png" alt="image site blueasy">
+							
 						</div>
 						<div id="b5" class="back face center">
-							<a href="assets/sites/Vinyle/index.php" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Wordpress Vinyle</h4><p>Déscriptif du site</p><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p></a>
+							<a href="assets/sites/Vinyle/index.php" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Wordpress Vinyle</h4><p>Déscriptif du site</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p></div></a>
 						</div>
 		  			</div>
 		  		</div>
 	  		</div><!--#wordpressVinyle-->
-
 
 	  		<div id="sokoban">
 				<h3>Sokoban</h3>
 				<div id="box6">
 					<div id="picture6" class="shadow">
 						<div class="front face">
-							<img class="imageProjet" src="assets/images/sokoban500.png" alt="image site ski">
+						
 						</div>
 						<div id="b6" class="back face center">
-							<a href="assets/sites/Sokoban/index2.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Jeu Sokoban</h4><p>Déscriptif du site</p><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p></a>
+							<a href="assets/sites/Sokoban/index2.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Jeu Sokoban</h4><p>Déscriptif du site</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p></div></a>
 						</div>
 		  			</div>
 		  		</div>
 	  		</div><!--#sokoban-->
-
 
 		</div><!--#ligneBas-->
 	</section>
@@ -168,10 +165,10 @@
 				<div id="box7">
 					<div id="picture7" class="shadow">
 						<div class="front face">
-							<img class="imageProjet" src="assets/images/ce_site500.png" alt="image site blueasy">
+						
 						</div>
 						<div id="b7" class="back face center">
-							<a href="ceSite.php" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Ce site Web</h4><p>Projet créer dans l'idée de rassembler mes différents<br/>acquis en développement web dans ce site qui s'étoffera<br/>au fur et à mesure de mes compétances.<br/><br/>Retrouvez également les anciennes versions du site.</p><hr><span class="techno">Technologies utilsées :</span><p>HTML5, PHP, SASS, JavaScript</p></a>
+							<a href="ceSite.php" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Ce site Web</h4><p>Projet créé dans l'idée de rassembler mes différents<br/>acquis en développement web dans ce site qui s'étoffera<br/>au fur et à mesure de mes compétences.<br/><br/>Retrouvez également les anciennes versions du site.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, PHP, SASS, JavaScript</p></div></a>
 						</div>
 		  			</div>
 		  		</div>
@@ -182,10 +179,10 @@
 				<div id="box8">
 					<div id="picture8" class="shadow">
 						<div class="front face">
-							<img class="imageProjet" src="assets/images/duino500.jpg" alt="image site ski">
+							
 						</div>
 						<div id="b8" class="back face center">
-							<a href="duino.php" title="Rendez visite à Duino!"><h4>Projet robotique</h4><p>Assemblage de différents composants éléctroniques sur un chassis afin de créer un système embarquer ou robot.<br/><br/>Duino, c'est son nom, possède pour le moment 3 modes distincts:<br/>le mode autonome, le mode téléguider et le mode surveillance.<br/><br/>Découvrez-en plus sur lui !</p><hr><span class="techno">Technologies utilsées :</span><p>Arduino Uno, Rapsberry Pi, Python3, C++, Tkinter</p></a>
+							<a href="duino.php" title="Rendez visite à Duino!"><h4>Projet robotique</h4><p>Assemblage de différents composants éléctroniques sur un chassis afin de créer un système embarquer ou robot.<br/><br/>Duino, c'est son nom, possède pour le moment 3 modes distincts:<br/>le mode autonome, le mode téléguider et le mode surveillance.<br/>Découvrez-en plus sur lui !</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>Arduino Uno, Rapsberry Pi, Python3, C++, Tkinter</p></div></a>
 						</div>
 		  			</div>
 		  		</div>
@@ -201,20 +198,25 @@
 		<h2>Petite présentation sur moi .</h2>
 
 		<div id="textePresentation">
-			<p>Passionné par l'informatique depuis déjà plusieurs années, j'ai tout d'abord découvert l'informatique au sens général du terme, montage/démontage et maintenance de PC.</p><br /><p>J'ai ensuite découvert la programmation avec grand plaisir de façon autodidacte nottament sur <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" target="_blank" title="Site du fabricant. En Anglais">Raspberry</a> et <a href="https://www.arduino.cc/" target="_blank" title="Site du fabricant. En Anglais">Arduino</a> en développent un robot avant d'avoir eu la chance d'intégrer la formation de Développeur Web Junior au sein de l'école Access Code School de Besançon.</p><br /><p>J'aime également les sorties en VTT, la musique et l'aquariophilie.</p>
+			<p>Passionné par l'informatique depuis déjà plusieurs années, j'ai tout d'abord découvert l'informatique au sens général du terme, montage/démontage et maintenance de PC.</p><br /><p>J'ai ensuite découvert la programmation avec grand plaisir de façon autodidacte notamment sur <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" target="_blank" title="Site du fabricant. En Anglais">Raspberry</a> et <a href="https://www.arduino.cc/" target="_blank" title="Site du fabricant. En Anglais">Arduino</a> en développent un robot avant d'avoir eu la chance d'intégrer la formation de Développeur Web Junior au sein de l'école Access Code School de Besançon.</p><br /><p>J'aime également les sorties en VTT, la musique et l'aquariophilie.</p>
 		</div>
 		
 	</section>
-<!--****************************** #COMPETANCES ***************************************************-->
-	<section id="competances">
+<!--****************************** #COMPETENCES ***************************************************-->
+	<section id="competences">
 		<div class="titre">
-			<hr><h2>Mes compétances</h2><hr>
+			<hr><h2>Mes compétences</h2><hr>
 		</div>
 		<h2>Méthodes et langages appris de façon autodidacte ou en formation .</h2>
+		<div id="blockCompetences">
 
-		<div id="blockCompetances">
-			<img src="assets/images/serveur2.png" alt="slider">
-			<div id="texteCompetances">
+
+			<div id="imageCompetences">	
+				<!--<img src="assets/images/serveurGrand.png" alt="slider">-->
+			</div>
+
+
+			<div id="texteCompetences">
 				<h5>Langages utilisé :</h5><p> HTML, CSS, SASS, JavaScript, PHP, MySQL.</p><br />
 				<h5>Frameworks :</h5><p> Bootstrap, Symphony.</p><br />
 				<h5>Méthodes :</h5><p> MVC, Ajax.</p><br />
@@ -222,7 +224,6 @@
 				<p><i class="fas fa-download"></i>Vous pouvez télécharger mon CV <a href="assets/telechargement/Dubel_Sebastien_CV.zip" title="Télécharger le CV">ici</a> .</p>
 			</div>
 		</div>
-
 	</section>
 <!--******************************* #CONTACT ****************************************-->
 	<section id="contact">
@@ -259,7 +260,6 @@
 	    		</div>
 	    		
 			</form>
-
 	</div>
 	
 	</section>

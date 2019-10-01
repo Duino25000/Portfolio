@@ -31,15 +31,18 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="index.php"><i class="fas fa-home"></i></a></li>
+				<li><a href="index.php"><i class="fas fa-arrow-circle-left"></i></a></li>
 				<li><a href="#siteTXT1">Description</a></li>
 				<li><a href="#siteTXT2">Technologie utilisées</a></li>
 				<li><a href="#siteTXT3">Améliorations</a></li>
 			</ul>
 		</nav>
 	
-		<div id="titreMoi">
-			<img id ="PhotoMoi" src="assets/images/moi.jpg" alt="slider"><p><span>Dubel Sébastien</span><br />Développeur Web junior</p>
+		<img id="fondHeader" src="assets/images/web5.jpg" alt="slider">
+		<div id="boiteTitre">
+			<div id="titreMoi">
+			<p><span>Dubel Sébastien</span><br />Développeur Web junior</p>
+			</div>
 		</div>
 	</header>
 
@@ -67,7 +70,7 @@
 		<p>Des sondages/questionnaires, la listes des mises à jours ainsi que l'historique des anciennes versions du site seront ajoutés. Si vous avez des questions, des suggestions ou simplement pour me donner votre avis qui m'aidera beaucoup, n'hésitez pas envoyez un message dans la rebrique "Contact".</p>
 	</section>
 
-	<footer id="footer">
+	<footer id="footerBorderTop">
 		<p>Mentions légales</p>
 		<a href="https://www.linkedin.com/feed/?trk=guest_job_search_nav-header-signin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 		<a href="https://github.com/Duino25000/Portfolio" target="_blank"><i class="fab fa-github"></i></a>
