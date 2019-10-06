@@ -39,6 +39,52 @@
 	font-family: 'hira';
 	src: url(../fonts/Hirakakupro_w3.otf);
 }
+
+
+
+
+
+
+.pbResponsive{
+	display: none;
+	text-align: center;
+	background-image: url("../../../../images/engrenage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pbResponsive, h5{
+	padding: 5%;
+	font-size: 150%;
+	color: orange;
+}
+
+
+#blockResponsive{
+	background-color: rgba(255,255,255,0.6);
+	padding: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+
+#blockResponsive, h6{
+	font-size: 120%;		
+	padding-bottom: 2%;
+}
+
+
+@media screen and (max-width: 1200px){
+	.pbResponsive{
+		display: block;
+	}
+
+	#MainWrap{
+		display: none;
+	}
+}
+	
+
 /****************** HEADER  ***********************/
 header
 {

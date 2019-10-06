@@ -36,18 +36,15 @@
 				<li><a href="#projetPerso">Mes projets perso</a></li>
 				<li><a href="#competences">Mes compétences</a></li>
 				<li><a href="#moi">Qui suis-je ?</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#Sectioncontact">Contact</a></li>
 			</ul>
 		</nav>
 	<img id="fondHeader" src="assets/images/web5.jpg" alt="slider">
 		<div id="boiteTitre">
 
-
 			<div id="titreMoi">
 				<p><span>Dubel Sébastien</span><br />Développeur Web junior</p>
 			</div>
-
-			
 		</div>
 	</header>
 <!--******************************** #PROJETS ***************************************************-->
@@ -81,7 +78,7 @@
 			
 						</div>
 						<div id="b2" class="back face center">
-							<a href="assets/sites/Blueasy/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Blueasy</h4><p>Intégration web à partir d'un PSD.</br> Réalisé en HTML5/CSS3 et Bootstrap pour la mise en page.</br> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Bootstrap, Photoshop</p></div></a>
+							<a href="assets/sites/Blueasy/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Blueasy</h4><p>Intégration web à partir d'un PSD.</br> Réalisé en HTML5/CSS3 et Bootstrap pour la mise en page.</br> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Bootstrap, Photoshop</p><div class="maintenanceResponsive"><p>Maintenance en cours...<br/>Site affichable uniquement dans des fenètres de plus de 1200px.</p></div></div></a>
 						</div>
 		  			</div>
 		  		</div>
@@ -98,7 +95,7 @@
 						</div>
 						<div id="b3" class="back face center">
 							<a href="assets/sites/Ski/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Ski</h4><p>
-							Intégration web à partir d'un PSD.</br> Réalisé uniquement avec HTML5 et CSS3.</br> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Photoshop</p></div></a>
+							Intégration web à partir d'un PSD.</br> Réalisé uniquement avec HTML5 et CSS3.</br> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Photoshop</p><div class="maintenanceResponsive"><p>Maintenance en cours...<br/>Site affichable uniquement dans des fenètres de plus de 1200px.</p></div></div></a>
 						</div>
 		  			</div>
 		  		</div>
@@ -112,7 +109,7 @@
 						
 						</div>
 						<div id="b4" class="back face center">
-							<a href="assets/sites/Projet_Sportif/index.php" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Projet Sportif</h4><p>Déscriptif du site</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p></div></a>
+							<a href="assets/sites/Projet_Sportif/index.php" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Projet Sportif</h4><p>Déscriptif du site</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p><div class="maintenanceResponsive"><p>Maintenance en cours...<br/>Site affichable uniquement dans des fenètres de plus de 1200px.</p></div></div></a>
 						</div>
 		  			</div>
 		  	</div>	
@@ -128,7 +125,7 @@
 							
 						</div>
 						<div id="b5" class="back face center">
-							<a href="assets/sites/Vinyle/index.php" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Wordpress Vinyle</h4><p>Déscriptif du site</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p></div></a>
+							<a href="assets/sites/Wordpress/index.php" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Wordpress Vinyle</h4><p>Déscriptif du site</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p><div class="maintenanceResponsive"><p>Maintenance en cours...<br/>Site affichable uniquement dans des fenètres de plus de 1200px.</p></div></div></a>
 						</div>
 		  			</div>
 		  		</div>
@@ -142,7 +139,7 @@
 						
 						</div>
 						<div id="b6" class="back face center">
-							<a href="assets/sites/Sokoban/index2.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Jeu Sokoban</h4><p>Déscriptif du site</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p></div></a>
+							<a href="assets/sites/Sokoban/index2.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Jeu Sokoban</h4><p>Déscriptif du site</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML, CSS</p><div class="maintenanceResponsive"><p>Maintenance en cours...<br/>Site affichable uniquement dans des fenètres de plus de 1200px.</p></div></div></a>
 						</div>
 		  			</div>
 		  		</div>
@@ -191,16 +188,19 @@
 	</section>
 <!--******************************* #MOI  PRESENTATION ****************************************-->
 	<section id="moi">
-
 		<div class="titre">
 			<hr><h2>Qui suis-je ?</h2><hr>
 		</div>	
 		<h2>Petite présentation sur moi .</h2>
 
 		<div id="textePresentation">
-			<p>Passionné par l'informatique depuis déjà plusieurs années, j'ai tout d'abord découvert l'informatique au sens général du terme, montage/démontage et maintenance de PC.</p><br /><p>J'ai ensuite découvert la programmation avec grand plaisir de façon autodidacte notamment sur <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" target="_blank" title="Site du fabricant. En Anglais">Raspberry</a> et <a href="https://www.arduino.cc/" target="_blank" title="Site du fabricant. En Anglais">Arduino</a> en développent un robot avant d'avoir eu la chance d'intégrer la formation de Développeur Web Junior au sein de l'école Access Code School de Besançon.</p><br /><p>J'aime également les sorties en VTT, la musique et l'aquariophilie.</p>
+			<p>Passionné par l'informatique depuis déjà plusieurs années, j'ai tout d'abord découvert l'informatique au sens général du terme, montage/démontage et maintenance de PC.</p><br /><p>J'ai ensuite découvert la programmation avec grand plaisir de façon autodidacte notamment sur <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" target="_blank" title="Site du fabricant. En Anglais">Raspberry</a> et <a href="https://www.arduino.cc/" target="_blank" title="Site du fabricant. En Anglais">Arduino</a> en développent un robot avant d'avoir eu la chance d'intégrer la formation de Développeur Web Junior au sein de l'école Access Code School de Besançon.</p><br /><p>J'aime également les sorties en VTT, la musique et l'aquariophilie.</p>	
 		</div>
-		
+
+		<div id="videoETmap">
+			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CvCY6jgcnWxknkvu_rwQMWS51P_Xvy_J"></iframe><!--640 480-->
+			<!--<iframe src="https://www.youtube.com/embed/videoseries?list=PLN1ZKaNnbTGAmour32fLv1CE2zcOXvyTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+		</div>
 	</section>
 <!--****************************** #COMPETENCES ***************************************************-->
 	<section id="competences">
@@ -210,23 +210,36 @@
 		<h2>Méthodes et langages appris de façon autodidacte ou en formation .</h2>
 		<div id="blockCompetences">
 
-
 			<div id="imageCompetences">	
 				<!--<img src="assets/images/serveurGrand.png" alt="slider">-->
 			</div>
-
 
 			<div id="texteCompetences">
 				<h5>Langages utilisé :</h5><p> HTML, CSS, SASS, JavaScript, PHP, MySQL.</p><br />
 				<h5>Frameworks :</h5><p> Bootstrap, Symphony.</p><br />
 				<h5>Méthodes :</h5><p> MVC, Ajax.</p><br />
-				<h5>Logiciels :</h5><p> Photoshop, Illustrator, SublimText, Git, Vagrant, Wordpress, Xampp.</p><br /><br />
-				<p><i class="fas fa-download"></i>Vous pouvez télécharger mon CV <a href="assets/telechargement/Dubel_Sebastien_CV.zip" title="Télécharger le CV">ici</a> .</p>
+				<h5>Logiciels :</h5><p> Photoshop, Illustrator, SublimText, GitHub, Vagrant, Wordpress, Xampp.</p><br /><br />
+				<p><i class="fas fa-download"></i>Vous pouvez télécharger mon CV <a href="assets/telechargement/Dubel_Sebastien_CV.zip" title="Télécharger le CV">ici</a>.</p>
 			</div>
+		</div>
+
+		<div id="certificats">
+				<h3>Certificats Openclassroom</h3>
+				<div id="boiteCertificats">
+					<div id="boiteCertificatsHaut">
+						<div class="imgTxtCertificats"><a href="assets/images/apprenez_HTML.png"><img src="assets/images/apprenez_HTML.png" class="imageCertificats" alt="Fond d'écran orange." title="Cliquez pour agrandir" /></a><p><a href="assets/telechargement/Apprenez_HTML5.pdf" title="Télécharger le certificat"><i class="fas fa-download"></i>Télécharger</a></p></div>
+						<div class="imgTxtCertificats"><a href="assets/images/comprendre_Web.png"><img src="assets/images/comprendre_Web.png" class="imageCertificats" alt="Fond d'écran orange." title="Cliquez pour agrandir" /></a><p><a href="assets/telechargement/Comprendre_web.pdf" title="Télécharger le certificat"><i class="fas fa-download"></i>Télécharger</a></p></div>
+					</div>
+
+					<div id="boiteCertificatsBas">
+						<div class="imgTxtCertificats"><a href="assets/images/decouvrez_CMS.png"><img src="assets/images/decouvrez_CMS.png" class="imageCertificats" alt="Fond d'écran orange." title="Cliquez pour agrandir" /></a><p><a href="assets/telechargement/Decouvrez_CMS.pdf" title="Télécharger le certificat"><i class="fas fa-download"></i>Télécharger</a></p></div>
+						<div class="imgTxtCertificats"><a href="assets/images/demarrez_Python.png"><img src="assets/images/demarrez_Python.png" class="imageCertificats" alt="Fond d'écran orange." title="Cliquez pour agrandir" /></a><p><a href="assets/telechargement/Demarrez_Python.pdf" title="Télécharger le certificat"><i class="fas fa-download"></i>Télécharger</a></p></div>
+					</div> 
+				</div>
 		</div>
 	</section>
 <!--******************************* #CONTACT ****************************************-->
-	<section id="contact">
+	<section id="Sectioncontact">
 		<div class="titre">
 			<hr><h2>Contact</h2><hr>
 		</div>
@@ -239,10 +252,9 @@
 
 					<div id="boxNom" class="boxInput">
 						<label for="nom" id="label_nom"><i class="fas fa-user"></i></label>
-						<input type="text" name="nom1" id="nom" class="vide" placeholder="Nom" />
+						<input type="text" name="nom" id="nom" class="vide" placeholder="Nom" />
 					</div>
 					<p id="label_p_nom">*Champ obligatoire</p>
-
 
 					<div id="boxMail" class="boxInput">
 						<label for="mail" id="label_mail"><i class="fas fa-envelope"></i></label>
@@ -251,19 +263,18 @@
 					<p id="pMail">*Champ obligatoire</p> 
 			 
 					<div id="boxMessage">
-			        	<label for="message" id="label_message"><i class="fas fa-comment-alt"></i></label>
-			      		<textarea name="message" id="message" placeholder="Laissez nous un message" class="vide"></textarea>
+			        	<label for="contact" id="label_contact"><i class="fas fa-comment-alt"></i></label>
+			      		<textarea name="contact" id="contact" placeholder="Laissez moi un message" class="vide"></textarea>
 			      	</div>
 			      	<p id="pArea">*Champ obligatoire</p>
 
-			      	<div id="boutonVerif" onclick="">ENVOYER</div>
+			      	<div id="boutonVerif" onclick="check()" >ENVOYER</div>
 	    		</div>
 	    		
 			</form>
 	</div>
 	
 	</section>
-
 <!--********************************* FOOTER *****************************************************-->
 	<footer id="footer">
 		<p>Mentions légales</p>
@@ -271,6 +282,6 @@
 		<a href="https://github.com/Duino25000/Portfolio" target="_blank"><i class="fab fa-github"></i></a>
 	</footer>
 <!--*********************************************************************************************-->
-<script src="assets/scripts/deffillement.js"></script>
+<script src="assets/scripts/traitement_formulaire.js"></script>
 </body>
 </html>

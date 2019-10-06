@@ -6,6 +6,33 @@
 	fond footer #353f47
 	
 }*/
+.pbResponsive {
+  display: none;
+  text-align: center;
+  background-image: url("../../../../images/engrenage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .pbResponsive {
+      display: block; } }
+  .pbResponsive h5 {
+    padding: 5%;
+    font-size: 250%;
+    color: orange; }
+  .pbResponsive #blockResponsive {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 3%;
+    margin-left: 3%;
+    margin-right: 3%; }
+    .pbResponsive #blockResponsive h6 {
+      font-size: 220%;
+      /*color: orange;*/
+      padding-bottom: 2%; }
+
+@media screen and (max-width: 1200px) {
+  #MainWrap {
+    display: none; } }
+
 .borderBlack {
   width: 45px;
   border-top: 2px solid black; }
