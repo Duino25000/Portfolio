@@ -1,0 +1,45 @@
+Après plusieurs jours de recherche et d'essais infructueux, j'ai décidé de mettre un lien vers le tuto qui ma permis d'y arriver ici. Je l'ai installer sous Stretch fraîchement installer.
+
+Pour infos:
+
+-A l'étape 4, après  "Creating your Python virtual environment" j'ai seulement mis :
+
+$ mkvirtualenv cv -p python3
+
+Dans une installation précédente, j'avait mis les 2 mais je ne pouvais importer cv2 que sous Python2 (je ne sais pas si c'est lié)
+
+********************************************
+
+-A l'étape 5, après "Configure your swap space size before compiling"
+
+Il vous dit d'augmenter la taille du swap (une sorte de ram) à 1024 je vous conseil de le faire j'ai tester sans la modifiée et je confirme, la RPI plante! Il faut être en ROOT pour pouvoir modifier le fichier. Utilisez nano dans une nouvelle fenêtre du terminal pour vous facilité la tache:
+
+$sudo nano /etc/dphys-swapfile
+
+vers la fin du fichier changer CONF_SWAPSIZE=100 par CONF_SWAPSIZE=1024 ; Tapez Ctrl+x ensuite O et entrée. Ensuite aretez et redémarrez le service pour prendre la nouvelle valeur en compte avec :
+
+$sudo /etc/init.d/dphys-swapfile stop
+
+$sudo /etc/init.d/dphys-swapfile start
+
+Pensez bien à remettre la valeur à 100 à la fin de l'installation d'OpenCV en suivant la même procédure car cela use prématurément la duré de vie de votre SD.
+
+*******************************************
+
+-Dernière chose, toujours dans l'étape 5 avec la commande:
+
+$ make -j4
+
+cmake va compiler OpenCV en utilisant 100% du CPU (avec les 4 coeurs) pendant 1h30....inutile de vous dire que ça va chauffer!  évitez si votre RPI n'ai pas refroidie. Lancez plutôt :
+
+$ make -j2
+
+pour utilisé que 50% du CPU. 
+
+Ensuite RAS continuez de suivre le tuto jusqu’à la fin. 
+
+Bon courage....
+
+******************************************
+
+Suite à la réussite de l'installation, si vous avez des problèmes notamment pour importer cv2 depuis l'IDE python je pourrai peut être vous aidez.

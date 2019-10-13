@@ -23,7 +23,8 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<title>Duino</title>
+	<meta name="description" content="Page décrivant qui est Duino. Son histoires et ses composants." />
+	<title>Qui est Duino ?</title>
 </head>
 
 <body>
@@ -31,13 +32,13 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="index.php"><i class="fas fa-arrow-circle-left"></i></a></li>
+				<li><a href="index.php">Retour accueil</i></a></li>
 				<li><a href="#Presentation">Présentation</a></li>
 				<li><a href="#DuinoV1">Première<br/>version</a></li>
 				<li><a href="#DuinoV2">Deuxième<br/>version</a></li>
 				<li><a href="#DuinoV3">Troisième<br/>version</a></li>
 				<li><a href="#Details">Plus de<br/>détails</a></li>
-				<li><a href="#Bonus">Bonus</a></li>
+				<li class="dernierLI"><a href="#Bonus">Bonus</a></li>
 			</ul>
 		</nav>
 	
@@ -157,7 +158,8 @@
 	</section>
 
 	<footer id="footer">
-		<p>Mentions légales</p>
+		<a href="index.php#Sectioncontact"><p>Contact</p></a>
+		<a href="mention.html" target="_blank" title="Voir les mentions légales (ouvre un nouvel onglet)"><p>Mentions légales</p></a>
 		<a href="https://www.linkedin.com/feed/?trk=guest_job_search_nav-header-signin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 		<a href="https://github.com/Duino25000/Portfolio" target="_blank"><i class="fab fa-github"></i></a>
 	</footer>

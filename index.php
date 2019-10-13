@@ -4,7 +4,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/SASS/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
@@ -23,22 +22,64 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<title>Duino.fr</title>
+	<meta name="description" content="Page d'accueil rassemblant et decrivant mes différents projets personnel ou professionnel." />
+	<meta name="author" content="Dubel Sébastien" />
+	<!-- Meta for Google+ -->
+	<meta itemprop="name" content="Découvrez mon site">
+	<meta itemprop="description" content="Le site présente différents projets personnel ou professionnel que j'ai réalisé.">
+	<meta itemprop="image" content="https://www.duino.fr/reseau.png">
+	<!-- Twitter Card meta -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Découvrez mon site">
+	<meta name="twitter:description" content="Le site présente différents projets personnel ou professionnel que j'ai réalisé.">	
+	<meta name="twitter:url" content="https://www.duino.fr/" />
+	<meta name="twitter:image:src" content="https://www.duino.fr/reseau.png">
+	<!-- Open Graph meta -->
+	<meta property="og:title" content="Découvrez mon site" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://www.duino.fr/" />
+	<meta property="og:image" content="https://www.duino.fr/reseau.png" />
+	<meta property="og:description" content="Le site présente différents projets personnel ou professionnel que j'ai réalisé." />
+	<link rel="stylesheet" href="assets/SASS/style.css" />
+	<title>Accueil Duino.fr</title>
 </head>
 
 <body>
 <!--*********************************** HEADER *****************************************-->
 	<header>
+
+
 		<nav>
+  			<div class="nav-mobile">
+    			<button id="toggleList" onclick="toggleList()">
+    			<span>&#x2630;</span></button>
+  			</div>
+
+  			<div class="nav-links hide">
+    			<ul>
+      				<li><a href="#projets" onclick="toggleList()">Mes projets pro</a></li>
+      				<li><a href="#projetPerso" onclick="toggleList()">Mes projets perso</a></li>
+      				<li><a href="#competences" onclick="toggleList()">Mes compétences</a></li>
+      				<li><a href="#moi" onclick="toggleList()">Qui suis-je ?</a></li>
+      				<li><a href="#Sectioncontact" onclick="toggleList()">Contact</a></li>
+    			</ul>
+  			</div>
+  			
+		</nav>
+
+<!--   		<nav>
 			<ul>
-				<li><a href="index.php"><i class="fas fa-home"></i></a></li>
 				<li><a href="#projets">Mes projets pro</a></li>
 				<li><a href="#projetPerso">Mes projets perso</a></li>
 				<li><a href="#competences">Mes compétences</a></li>
 				<li><a href="#moi">Qui suis-je ?</a></li>
-				<li><a href="#Sectioncontact">Contact</a></li>
+				<li class="dernierLI"><a href="#Sectioncontact">Contact</a></li>
 			</ul>
-		</nav>
+		</nav>   -->
+
+
+
+
 	<img id="fondHeader" src="assets/images/web5.jpg" alt="slider">
 		<div id="boiteTitre">
 
@@ -64,7 +105,7 @@
 							<!--<img class="imageProjet" src="assets/images/webagency500.png" alt="image site webagency">-->
 						</div>
 						<div id="b1" class="back face center">
-							<a href="assets/sites/WebAgency/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Webagency</h4><p>Intégration web à partir de simples images.</br> Réalisé uniquement en HTML5/CSS3, sans framework.</br> Site responsive avec Media Queries et Flexbox.</br> Répond aux normes W3C. </br>(Seule la barre de navigation du menu est active)</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3</p></div></a>
+							<a href="assets/sites/WebAgency/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Webagency</h4><p>Intégration web à partir de simples images.<br/> Réalisé uniquement en HTML5/CSS3, sans framework.<br/> Site responsive avec Media Queries et Flexbox.<br/> Répond aux normes W3C. <br/>(Seule la barre de navigation du menu est active)</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3</p></div></a>
 						</div>
 	  				</div>
 	  			</div>
@@ -78,7 +119,7 @@
 			
 						</div>
 						<div id="b2" class="back face center">
-							<a href="assets/sites/Blueasy/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Blueasy</h4><p>Intégration web à partir d'un PSD.</br> Réalisé en HTML5/CSS3 et Bootstrap pour la mise en page.</br> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Bootstrap, Photoshop</p><div class="maintenanceResponsive"><p>Maintenance en cours...<br/>Site affichable uniquement dans des fenètres de plus de 1200px.</p></div></div></a>
+							<a href="assets/sites/Blueasy/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Blueasy</h4><p>Intégration web à partir d'un PSD.<br/> Réalisé en HTML5/CSS3 et Bootstrap pour la mise en page.<br/> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Bootstrap, Photoshop</p><div class="maintenanceResponsive"><p>Maintenance en cours...<br/>Site affichable uniquement dans des fenètres de plus de 1200px.</p></div></div></a>
 						</div>
 		  			</div>
 		  		</div>
@@ -95,7 +136,7 @@
 						</div>
 						<div id="b3" class="back face center">
 							<a href="assets/sites/Ski/index.html" target="_blank" title="Allez sur le site (ouvre un nouvel onglet)"><h4>Site Ski</h4><p>
-							Intégration web à partir d'un PSD.</br> Réalisé uniquement avec HTML5 et CSS3.</br> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Photoshop</p><div class="maintenanceResponsive"><p>Maintenance en cours...<br/>Site affichable uniquement dans des fenètres de plus de 1200px.</p></div></div></a>
+							Intégration web à partir d'un PSD.<br/> Réalisé uniquement avec HTML5 et CSS3.<br/> Réalisé dans le cadre d'une formation.</p><div class="technoHidden"><hr><span class="techno">Technologies utilsées :</span><p>HTML5, CSS3, Photoshop</p></div></a>
 						</div>
 		  			</div>
 		  		</div>
@@ -194,12 +235,11 @@
 		<h2>Petite présentation sur moi .</h2>
 
 		<div id="textePresentation">
-			<p>Passionné par l'informatique depuis déjà plusieurs années, j'ai tout d'abord découvert l'informatique au sens général du terme, montage/démontage et maintenance de PC.</p><br /><p>J'ai ensuite découvert la programmation avec grand plaisir de façon autodidacte notamment sur <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" target="_blank" title="Site du fabricant. En Anglais">Raspberry</a> et <a href="https://www.arduino.cc/" target="_blank" title="Site du fabricant. En Anglais">Arduino</a> en développent un robot avant d'avoir eu la chance d'intégrer la formation de Développeur Web Junior au sein de l'école Access Code School de Besançon.</p><br /><p>J'aime également les sorties en VTT, la musique et l'aquariophilie.</p>	
+			<p>Passionné par l'informatique depuis déjà plusieurs années, j'ai tout d'abord découvert l'informatique au sens général du terme, montage/démontage et maintenance de PC.</p><br /><p>J'ai ensuite découvert la programmation avec grand plaisir de façon autodidacte notamment sur <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/" target="_blank" title="Site du fabricant. En Anglais">Raspberry</a> et <a href="https://www.arduino.cc/" target="_blank" title="Site du fabricant. En Anglais">Arduino</a> en développent un robot avant d'avoir eu la chance d'intégrer la formation de Développeur Web Junior au sein de l'école Access Code School de Besançon.</p><br /><p>J'aime également les sorties en VTT, voyage en cours... voir la carte "Road trip" si dessous. La musique et l'aquariophilie.</p>	
 		</div>
 
 		<div id="videoETmap">
-			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CvCY6jgcnWxknkvu_rwQMWS51P_Xvy_J"></iframe><!--640 480-->
-			<!--<iframe src="https://www.youtube.com/embed/videoseries?list=PLN1ZKaNnbTGAmour32fLv1CE2zcOXvyTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+			<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CvCY6jgcnWxknkvu_rwQMWS51P_Xvy_J"></iframe>
 		</div>
 	</section>
 <!--****************************** #COMPETENCES ***************************************************-->
@@ -247,7 +287,7 @@
 
 		<div id="blockFormulaire">
 			<form method="post">
-
+				
 				<div id="blocForm">
 
 					<div id="boxNom" class="boxInput">
@@ -264,24 +304,29 @@
 			 
 					<div id="boxMessage">
 			        	<label for="contact" id="label_contact"><i class="fas fa-comment-alt"></i></label>
-			      		<textarea name="contact" id="contact" placeholder="Laissez moi un message" class="vide"></textarea>
+			      		<textarea name="contact" id="contact" placeholder="Laissez moi un message" class="vide" maxlength="500"></textarea>
 			      	</div>
 			      	<p id="pArea">*Champ obligatoire</p>
+			
 
 			      	<div id="boutonVerif" onclick="check()" >ENVOYER</div>
 	    		</div>
 	    		
 			</form>
 	</div>
-	
 	</section>
 <!--********************************* FOOTER *****************************************************-->
 	<footer id="footer">
-		<p>Mentions légales</p>
+		
+		<a href="mention.html" target="_blank" title="Voir les mentions légales (ouvre un nouvel onglet)"><p>Mentions légales</p></a>
 		<a href="https://www.linkedin.com/feed/?trk=guest_job_search_nav-header-signin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 		<a href="https://github.com/Duino25000/Portfolio" target="_blank"><i class="fab fa-github"></i></a>
 	</footer>
 <!--*********************************************************************************************-->
-<script src="assets/scripts/traitement_formulaire.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+<script src="assets/scripts/script.js"></script>
+
 </body>
 </html>
